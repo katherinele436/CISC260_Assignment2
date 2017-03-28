@@ -1,0 +1,21 @@
+legalCourse [("John","Mary",75)]
+legalCourse [("John","John",75)]
+legalCourse [("John","Mary",75),("Peter","Paul",90),("John","Mary",90)]
+legalCourse [("John","Mary",75),("Peter","Paul",90),("Mary","John",90)]
+legalCourse [("John","Mary",75),("Peter","Paul",90),("Mary","Fred",90)]
+
+studentCount "Ron" [("Harry","Hermoine",80), ("Ron","Ginny",72), ("Hermoine","Ron",95), ("Neville","Ginny",84)]
+studentCount "Neville" [("Harry","Hermoine",80), ("Ron","Ginny",72), ("Hermoine","Ron",95), ("Neville","Ginny",84)]
+studentCount "Draco" [("Harry","Hermoine",80), ("Ron","Ginny",72), ("Hermoine","Ron",95), ("Neville","Ginny",84)]
+partners "Ron" [("Harry","Hermoine",80), ("Ron","Ginny",72), ("Hermoine","Ron",95), ("Neville","Ginny",84)]
+partners "Neville" [("Harry","Hermoine",80), ("Ron","Ginny",72), ("Hermoine","Ron",95), ("Neville","Ginny",84)]
+partners "Dumbledore" [("Harry","Hermoine",80), ("Ron","Ginny",72), ("Hermoine","Ron",95), ("Neville","Ginny",84)]
+courseAvg [("Harry","Hermoine",80), ("Ron","Ginny",72), ("Hermoine","Ron",95), ("Neville","Ginny",84)]
+courseAvg [("Harry","Hermoine",80)]
+courseAvg []
+
+studentAvg "Nobody" [("Harry","Hermoine",80), ("Ron","Ginny",72), ("Hermoine","Ron",95), ("Neville","Ginny",84)]
+studentAvg "Harry" [("Harry","Hermoine",80), ("Ron","Ginny",72), ("Hermoine","Ron",95), ("Neville","Ginny",84)]
+studentAvg "Ginny" [("Harry","Hermoine",80), ("Ron","Ginny",72), ("Hermoine","Ron",95), ("Neville","Ginny",84)]
+
+ students [("Harry","Hermoine",80), ("Ron","Ginny",72), ("Hermoine","Ron",95), ("Neville","Ginny",84)]
